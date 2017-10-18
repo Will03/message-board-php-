@@ -1,0 +1,98 @@
+body{
+	background:#f1f1f1;
+}
+.contain{
+	width:90%;
+	
+	/*height:100px;*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.site-header {
+	background-color: #30A9DE;
+}
+.site-header-inner {
+	height:100px;
+	/*background-color: #4AB8E8;*/
+}
+
+.site-footer{
+	background-color: #607D8B;
+
+}
+
+.site-footer-inner{
+	height:100px;
+	
+}
+.site-main{
+
+}
+.site-main-inner::after
+{
+	/*height:1000px;*/
+	content:"";
+	display: block;
+	clear: both;
+	background-color: #88A9B9;
+}
+.site-content{
+	height:600px;
+	width: 68%;
+	background-color: #f1f1f1;
+	float: left;
+}
+.sidebar{
+	height: 600px;
+	width:32%;
+	background-color: #ddd;
+	float: right;
+}
+.sidebar-inner{
+	height: 600px;
+	width:80%;
+	background-color: #ddd;
+	margin-left:auto; 
+	margin-right:auto; 
+}
+.clearfix{
+	clear:both;
+}
+#messagetest{
+	height:400px;
+	width: 70%;
+}
+.profix
+{
+	height:400px;
+	width: 70%;	
+}
+.ClientNickname
+{
+	height:600px;
+	width: 20%;
+	background-color: #ccc;
+	float: left;
+}
+.ClientEmail
+{
+	height:600px;
+	width: 20%;
+	background-color: #ccc;
+	float: left;
+}
+.Clientmessage
+{
+	height:600px;
+	width: 40%;
+	background-color: #ddd;
+	float: left;
+}
+.MessageTime
+{
+	height:600px;
+	width: 20%;
+	background-color: #ccc;
+	float: left;
+}
